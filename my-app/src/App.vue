@@ -2,7 +2,7 @@
   <div id="app">
     <div class="container">
       <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-light bg-light">
           <a class="navbar-brand">
             <img src="./assets/logo.jpg" class="img-thumbnail float-left" alt="logo">
           </a>
@@ -168,6 +168,9 @@ export default {
   background-color: whitesmoke;
   color: black;
   transform: rotateY(180deg);
+}
+.card-back {
+  padding: 10px;
 }
 
 nav {
